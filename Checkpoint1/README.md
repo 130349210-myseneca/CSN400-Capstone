@@ -48,6 +48,11 @@ This is my sample jason objects
 ### Sample Table
 This is my sample table
 
+|  First Name   |   Last Name   |  Age  |  Section  |
+| ------------- | ------------- | ----- | --------- |
+|     Conner    |    Lawrence   |   18  |    NCC    |
+|     James     |      Lee      |   19  |    NBB    |
+
 
 
 ### Sample Hyperlink
