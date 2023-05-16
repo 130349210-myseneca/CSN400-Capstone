@@ -21,11 +21,6 @@ This is my image submission
 
 ### My Single Line of Code Snippet
 This is my single line of code snippet
-try:
-    text = input()
-except:
-    text = ""
-print("You typed: %s" %text)
 
 
 
