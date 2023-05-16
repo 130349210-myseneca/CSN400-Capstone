@@ -10,9 +10,9 @@
 1. [My Image](#my-image)
 2. [My Single Line Code Snippet](#my-single-line-of-code-snippet)
 3. [My Multi Line Code Snippet](#my-multiline-of-code-snippet)
-4. [Sample Json Objects](sample-json-objects)
-5. [Sample Table](sample-table)
-6. [Sample Hyperlink](sample-hyperlink)
+4. [Sample Json Objects](#sample-json-objects)
+5. [Sample Table](#sample-table)
+6. [Sample Hyperlink](#sample-hyperlink)
 
 ### My Image
 This is my image submission
