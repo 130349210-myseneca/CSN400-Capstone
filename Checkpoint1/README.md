@@ -8,9 +8,9 @@
 
 ### Table of Contents
 1. [My Imange](#my-image)
-2. [My Single Line Code Snippet](#my-single-line-of-code)
-3. [My Multi Line Code Snippet](#my-multiline-of-code)
-4. [Sample Json Objects](my-json-object)
+2. [My Single Line Code Snippet](#my-single-line-of-code-snippet)
+3. [My Multi Line Code Snippet](#my-multiline-of-code-snippet)
+4. [Sample Json Objects](sample-json-objects)
 5. [Sample Table](my-sample-table)
 6. [Sample Hyperlink](my-sample-hyperlink)
 
@@ -21,7 +21,7 @@ This is my image submission
 
 ### My Single Line Code of Snippet
 This is my single line of code snippet
-<img src="repo-collaborators.png" alt="My Collaboration Screenshot" title="My Collaboration Screenshot">
+
 
 
 ### My Multi Line Code Snippet
