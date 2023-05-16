@@ -7,7 +7,7 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
-1. [My Imange](#my-image)
+1. [My Image](#my-image)
 2. [My Single Line Code Snippet](#my-single-line-of-code-snippet)
 3. [My Multi Line Code Snippet](#my-multiline-of-code-snippet)
 4. [Sample Json Objects](sample-json-objects)
@@ -19,7 +19,7 @@ This is my image submission
 <img src="repo-collaborators.png" alt="My Collaboration Screenshot" title="My Collaboration Screenshot">
 
 
-### My Single Line Code of Snippet
+### My Single Line of Code Snippet
 This is my single line of code snippet
 
 
