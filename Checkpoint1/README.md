@@ -27,7 +27,7 @@ This is my single line of code snippet is `az login`
 ### My Multiline of Code Snippet
 This is my multi-line of code snippet;
 ```python
-message = "Hello There.\nYou have c.\n" \
+message = "Hello There!\n Let's do a simple math equations!.\n" \
 
 math_result = 1 + 2 + 3 + 4 + \
               5 + 6 + 7 + 8 + \
