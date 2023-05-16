@@ -1,4 +1,4 @@
-# This is my checkpoint 1
+# Checkpoint 1 Submission
 
 - **COURSE INFORMATION: NDD**
 - **STUDENT’S NAME: Kinod Lakdinu Melewa Thanthrige**
