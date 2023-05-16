@@ -27,13 +27,13 @@ This is my multi-line of code snippet
 
 
 ### Sample Jason Objects
-This is sample jason objects
+This is my sample jason objects
 
 
 ### Sample Table
-This is sample table
+This is my sample table
 
 
 
 ### Sample Hyperlink
-This is sample hyerlink
+This is my sample hyerlink
