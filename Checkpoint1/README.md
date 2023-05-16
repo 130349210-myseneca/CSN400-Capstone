@@ -16,6 +16,7 @@
 
 ### My Image
 This is my image submission
+<img src="repo-collaborators.png" alt="My Collaboration Screenshot" title="My Collaboration Screenshot">
 
 
 ### My Single Line Code Snippet
