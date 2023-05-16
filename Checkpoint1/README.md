@@ -11,8 +11,8 @@
 2. [My Single Line Code Snippet](#my-single-line-of-code-snippet)
 3. [My Multi Line Code Snippet](#my-multiline-of-code-snippet)
 4. [Sample Json Objects](sample-json-objects)
-5. [Sample Table](my-sample-table)
-6. [Sample Hyperlink](my-sample-hyperlink)
+5. [Sample Table](sample-table)
+6. [Sample Hyperlink](sample-hyperlink)
 
 ### My Image
 This is my image submission
@@ -24,7 +24,7 @@ This is my single line of code snippet
 
 
 
-### My Multi Line Code Snippet
+### My Multi Line of Code Snippet
 This is my multi-line of code snippet
 
 
