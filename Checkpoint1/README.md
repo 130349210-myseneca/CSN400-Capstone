@@ -26,10 +26,8 @@ This is my single line of code snippet is `az login`
 
 ### My Multiline of Code Snippet
 This is my multi-line of code snippet;
-```
-message = "Hello There.\nYou have come to the right place to learn Python Programming.\n" \
-          "Follow the tutorials to become expert in Python. " \
-          "Don't forget to share it with your friends too."
+```python
+message = "Hello There.\nYou have c.\n" \
 
 math_result = 1 + 2 + 3 + 4 + \
               5 + 6 + 7 + 8 + \
