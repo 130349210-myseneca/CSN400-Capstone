@@ -41,7 +41,7 @@ my_list = sorted(my_list, key=cmp_to_key(locale.strcoll))
 ```
 
 
-### Sample Jason Objects
+### Sample Json Objects
 This is my sample jason objects
 ```
 {"menu": {  
