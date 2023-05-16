@@ -7,9 +7,16 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
-1. [My Repo collaborators Screenshot](#my-repo-collaborators-screenshot)
-2. [Single line code snippet](#my-single-line-of-code)
-3. [Multi line code snippet](#my-multiline-of-code)
-4. [Sample json objects](my-json-object)
-5. [Sample table](my-sample-table)
-6. [Sample hyperlink](my-sample-hyperlink)
+1. [My Imange](#my-image)
+2. [My Single Line Code Snippet](#my-single-line-of-code)
+3. [My Multi Line Code Snippet](#my-multiline-of-code)
+4. [Sample Json Objects](my-json-object)
+5. [Sample Table](my-sample-table)
+6. [Sample Hyperlink](my-sample-hyperlink)
+
+### My Image
+This is my image submission
+
+
+### My Single line code snippet
+This is my single line of code snippet
