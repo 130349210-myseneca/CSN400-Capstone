@@ -21,7 +21,7 @@ This is my image submission
 
 ### My Single Line Code Snippet
 This is my single line of code snippet
-
+<img src="repo-collaborators.png" alt="My Collaboration Screenshot" title="My Collaboration Screenshot">
 
 ### My Multi Line Code Snippet
 This is my multi-line of code snippet
