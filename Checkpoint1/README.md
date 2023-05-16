@@ -43,14 +43,26 @@ my_list = sorted(my_list, key=cmp_to_key(locale.strcoll))
 
 ### Sample Jason Objects
 This is my sample jason objects
-
+```
+{"menu": {  
+  "id": "file",  
+  "value": "File",  
+  "popup": {  
+    "menuitem": [  
+      {"value": "New", "onclick": "CreateDoc()"},  
+      {"value": "Open", "onclick": "OpenDoc()"},  
+      {"value": "Save", "onclick": "SaveDoc()"}  
+    ]  
+  }  
+}}  
+```
 
 ### Sample Table
 This is my sample table
 
 |  First Name   |   Last Name   |  Age  |  Section  |
 | ------------- | ------------- | ----- | --------- |
-|     Conner    |    Lawrence   |   18  |    NCC    |
+|     Conner    |    Lawrence   |   21  |    NCC    |
 |     James     |      Lee      |   19  |    NBB    |
 
 
