@@ -12,6 +12,7 @@
 3. [Part C - Manage Conflicts - Merge Editor](#header3)
 4. [Part D - Collaboration - Creating Pull Request](#header4)
 
+#
 ### **Part A - Manage Conflicts - Overwrite Remote Changes**
 - **Part 1 - Conflict-error.log**
 
@@ -68,6 +69,7 @@ To https://github.com/130349210-myseneca/CSN400-Capstone.git
  + 6e0a6ba...41deae5 main -> main (forced update)
 updating local tracking ref 'refs/remotes/origin/main'
 
+#
 
 ### **Part B - Manage Conflicts - Reset Local Commit Head**
 
@@ -111,7 +113,7 @@ Date:   Mon May 29 14:38:06 2023 -0400
 
     modifies style color in index.html to darkolivegreen
 
-
+#
 ### **Part C - Manage Conflicts - Merge Editor**
 
 - **Part 3 - Pull-conflict.log**
@@ -138,11 +140,15 @@ Changes to be committed:
 	modified:   Checkpoint3/conflict-resolution/index.html
 
 - **Part 4 - Screenshot of Complete Merge**
+<img src="Merge Screenshot.png" alt="Merge Screenshot" title="Merge Screenshot">
 
 
+
+#
 ### **Part D - Collaboration - Creating Pull Request**
 
 - **Part 4 - Pull Request Summary Screenshot**
+<img src="Pull Summary.png" alt="Pull Summary.png" title="Pull Summary.png">
 
 
 
