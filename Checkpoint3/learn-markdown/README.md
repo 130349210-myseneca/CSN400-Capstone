@@ -23,8 +23,7 @@ You can add an image or a code block, too.
 
 </details>
 ```
-
-### Example One: Collapsed Section including Header
+### Example One: Collapased Section including header
 
 <details>
 
@@ -42,7 +41,6 @@ You can add an image or a code block, too.
 
 </details>
 
-### Example Two: Collapsed Section with Python Code
 
 <details>
 
