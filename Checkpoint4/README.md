@@ -28,7 +28,21 @@
 - **Step 5: Stop your container**
 <img src="A - 5.png" alt="Stop your container" title="Stop your container Screenshot">
 
+
+
 ### **Part B - Run Your own container**
+- **Step 1: Get the sample application**
+<img src="B - 1.png" alt="Get the sample application" title="Get the sample application Screenshot">
+
+- **Step 2: Explore the Dockerfile**
+<img src="B - 2.png" alt="Explore the Dockerfile" title="Explore the Dockerfile Screenshot">
+
+- **Step 3: Build your first image**
+<img src="B - 3.png" alt="Build your first image" title="Build your first image Screenshot">
+
+- **Step 4: Run your container**
+<img src="B - 4.png" alt="Run your container" title="Run your container Screenshot">
+
 
 ### **Part C - Run Docker Hub Image**
 
