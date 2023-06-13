@@ -85,3 +85,66 @@ docker: Error response from daemon: driver failed programming external connectiv
 
 #
 ### **Part C - Persist the DB**
+```
+$ docker volume inspect todo-db
+[
+    {
+        "CreatedAt": "2023-06-13T01:59:58Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/todo-db/_data",
+        "Name": "todo-db",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+```
+#
+### **Part D - Multi container apps**
+- **mysql> SHOW DATABASES;**
+```
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| todos              |
++--------------------+
+5 rows in set (0.00 sec)
+```
+
+- **dig mysql**
+```
+c71276df4a87  ~  dig mysql
+
+; <<>> DiG 8.0.33.1 <<>> mysql
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40310
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;mysql.                         IN      A
+
+;; ANSWER SECTION:
+mysql.                  600     IN      A       172.22.0.1
+
+;; Query time: 99 msec
+;; SERVER: 127.0.0.11#53(127.0.0.11) (UDP)
+;; WHEN: Sun Jun 12 22:30840 UTC 2023
+;; MSG SIZE  rcvd: 44
+```
+
+- **mysql> SELECT * from todo_items;**
+```
++--------------------------------------+----------------+-----------+
+| id                                   | name           | completed |
++--------------------------------------+----------------+-----------+
+| bb4907d2-fab9-4650-9c61-c4130ea3c9b5 | Be Positive!!! |         0 |
+| 8b0b3dd1-43c9-43b9-8fab-04dc91cdca3d | Do assignments |         0 |
++--------------------------------------+----------------+-----------+
+2 rows in set (0.00 sec)
+
+```
