@@ -12,7 +12,10 @@
 3. [Part C - Persist the DB](#header3)
 4. [Part D - Multi container apps](#header4)
 
+#
+
 ### **Part A - Containerize an application**
+
 - **Question 1 - If you run docker build -t getting-started . for a second time, the build time will be different from first time, why? Why the number of steps are also different? Explain your answers in detail.**
 
 Docker employs a caching mechanism to optimize the process of building images. When a new image is built, Docker executes the instructions specified in the Dockerfile, which outlines the steps for creating the image. These instructions are executed using the `docker build` command and are stored in Docker's cache. When `docker build` is run again, Docker checks the cache for each step in the Dockerfile. If a step remains unchanged, Docker utilizes the intermediate image from the cache, resulting in a faster build process. However, if a step has been modified, Docker invalidates the cache for that step and re-executes it, along with all subsequent steps, thereby prolonging the build process.
@@ -71,3 +74,14 @@ docker: Error response from daemon: driver failed programming external connectiv
 - **Question 9 - Embed a screenshot of your app in your submission.**
 <img src="Part A - Q9.png" alt="Question 9" title="Question 9">
 
+#
+### **Part B - Share the application**
+
+- **Images from DockerHub**
+<img src="B - 1.png" alt="Images from Docker Hub" title="Images from Docker Hub">
+
+- **Deployed app page**
+<img src="B - 2.png" alt="Deployed app page" title="Deployed app page">
+
+#
+### **Part C - Persist the DB**
