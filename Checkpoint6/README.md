@@ -138,6 +138,11 @@ az vm get-boot-diagnostics-data --resource-group "Student-RG-954296" --name "LS-
 Correct time zone should be Pacific Time (US and Canada) and we also need to change the Scheduled shutdown time accordingly. 
 
 - **ALL THE VIRTUAL MACHINES ARE SUCESSFULLY DELETED**
+<img src="All VMS Deleted.png" alt="All VMS Deleted" title="All VMS Deleted">
+
+#
+
+
 
 
 
