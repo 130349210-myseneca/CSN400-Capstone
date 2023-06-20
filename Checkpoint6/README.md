@@ -42,6 +42,18 @@ az network vnet subnet create --name "SN2" --resource-group "Student-RG-954296" 
 "--nat-gateway", "--route-table" can be copnsidered as optional parameters need to pass to it
 #
 ### **Part B -  Working with Azure CLI Bash**
+- **List all VNETs using az network vnet list command and send the output in json format to vnet_list.jsonfile**
+
+[Link to the vnet_list.json file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/vnet_list.json)
+
+- **Get the details of your default student vnet using az show command and send the output in json format to student_vnet.json file**
+
+[Link to the student_vnet.json file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/student_vnet.json)
+
+- **List all peerings using az network vnet peering list command and send the output in table format to peerings.tbl file**
+
+[Link to the peerings.tbl file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/peerings.tbl)
+
 - **Get the details of your Router-XX subnet SN1 using az show command in json format and query it for details of subnet and rout associations. Only submit the specific property you are asked for. You will need to embed this in your README.md as per instructions.**
 
 az network vnet subnet show -g "Student-RG-954296" -n "SN1" --vnet-name "Router-115" --query "[id]"
@@ -56,6 +68,14 @@ az network vnet subnet show -g "Student-RG-954296" -n "SN1" --vnet-name "Router-
 [
   null
 ]
+
+- **List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tbl file**
+
+[Link to the route_list.tbl file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/route_list.tbl)
+
+- **Get the details of route between your Router-xx SN1 and Server-xx SN using az network route-table route show and send the output in json format to route_details.json**
+
+[Link to the route_details.json](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/route_details.json)
 
 
 - **What CLI command will show you which subnet is associated to which route in route table? (Hint: maybe start with 'az network vnet subnet show`)**
@@ -115,13 +135,20 @@ Usually you need to configure and use Virtual Network Gateways in Azure when you
 
 az vm list --output table >> vm_list.tbl
 
+[Link to the vm_list.tbl file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/vm_list.tbl)
+
+
 - **Get the details of your WC-99 using az show command and send the output in json format to WC-99-details.json file. What command did you use?**
 
 az vm show --name WC-115 --resource-group Student-RG-954296 --output json >> WC-99-details.json
 
+[Link to the WC-99-details.json file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/WC-99-details.json)
+
 - **List all NSG using az list command and send the output in table format to nsg_list.tblfile. What command did you use?**
 
 az network nsg list --output table >> nsg_list.tbl
+
+[Link to the nsg_list.tbl file ](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/nsg_list.tbl)
 
 - **After deleting list all your VMs using az  vm list ... with the output in table format. What command did you use? How can you ensure all your VMs are deleted?**
 
