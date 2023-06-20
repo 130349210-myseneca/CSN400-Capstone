@@ -1,0 +1,6 @@
+Name    ResourceGroup      Location       Zones
+------  -----------------  -------------  -------
+LR-115  STUDENT-RG-954296  canadacentral
+LS-115  STUDENT-RG-954296  canadacentral
+WC-115  STUDENT-RG-954296  canadacentral
+WS-115  STUDENT-RG-954296  canadacentral

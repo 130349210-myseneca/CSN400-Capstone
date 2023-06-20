@@ -106,43 +106,6 @@ Usually you need to configure and use Virtual Network Gateways in Azure when you
 #
 
 ### **Part D - Creating Virtual Machines**
-- **Virtual Machines: **
-<img src="Virtual Machines.png" alt="Virtual Machines" title="Virtual Machines">
-
-#### **Questions:** ####
-
-- **List all VMs and send the output in table format to vm_list.tbl file. What command did you use?**
-
-az vm list --output table >> vm_list.tbl
-
-- **Get the details of your WC-99 using az show command and send the output in json format to WC-99-details.json file. What command did you use?**
-
-az vm show --name WC-115 --resource-group Student-RG-954296 --output json >> WC-99-details.json
-
-- **List all NSG using az list command and send the output in table format to nsg_list.tblfile. What command did you use?**
-
-az network nsg list --output table >> nsg_list.tbl
-
-- **After deleting list all your VMs using az  vm list ... with the output in table format. What command did you use? How can you ensure all your VMs are deleted?**
-
-az vm list --output table 
-
-As there were no output from the command we can ensure that all the virtual machines have been deleted. Additionally, we can also check the resource group for more confirmation.
-
-- **Provide screenshot of auto shutdown configuration for LS_XX. Is there any command to show this? What is the time-zone? What should be the correct time settings considering the time zone differences?**
-
-<img src="Auto Shutdown.png" alt="Auto Shutdown" title="Auto Shutdown">
-
-az vm get-boot-diagnostics-data --resource-group "Student-RG-954296" --name "LS-115" --output json
-
-Correct time zone should be Pacific Time (US and Canada) and we also need to change the Scheduled shutdown time accordingly. 
-
-- **ALL THE VIRTUAL MACHINES ARE SUCESSFULLY DELETED**
-
-
-
-
-
 
 
 

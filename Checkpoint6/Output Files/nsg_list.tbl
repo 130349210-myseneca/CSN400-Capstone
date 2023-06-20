@@ -1,0 +1,6 @@
+Location       Name        ProvisioningState    ResourceGroup      ResourceGuid
+-------------  ----------  -------------------  -----------------  ------------------------------------
+canadacentral  LR-NSG-115  Succeeded            Student-RG-954296  c81e70bc-ba59-400e-9e1c-64185788fb67
+canadacentral  LS-NSG-115  Succeeded            Student-RG-954296  8f48f1f9-d618-48da-a1e2-678d02f8b026
+canadacentral  WC-NSG-115  Succeeded            Student-RG-954296  5193a005-c812-431e-90bc-216a886c950c
+canadacentral  WS-NSG-115  Succeeded            Student-RG-954296  f829f63e-a488-4aa7-907e-102fd3642759
