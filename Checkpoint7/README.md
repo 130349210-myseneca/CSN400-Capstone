@@ -22,7 +22,7 @@
 
 
 - **Resource Group List**
-<img src="./Images/Resource Group List.jpg" alt="Resource Group List" title="Resource Group List">
+<img src="images/Resource Group List.jpg" alt="Resource Group List" title="Resource Group List">
 
 #
 
