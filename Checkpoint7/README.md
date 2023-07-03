@@ -28,19 +28,19 @@ If the user deletes the specific SSH or RDP rule from the NSG which is associate
 
 
 - **List of all Resource Groups**
-<img src="images/Resource Group List.png" alt="Resource Group List" title="Resource Group List">
+<img src="Images/Resource Group List.png" alt="Resource Group List" title="Resource Group List">
 
 - **List of all the Virtual Machines**
-<img src="images/VM List.png" alt="Virtual Machine List" title="Virtual Machine List">
+<img src="Images/VM List.png" alt="Virtual Machine List" title="Virtual Machine List">
 
 - **List of all the Network NICs**
-<img src="images/Network NIC List.png" alt="NIC List" title="NIC List">
+<img src="Images/Network NIC List.png" alt="NIC List" title="NIC List">
 
 - **List of all the Network NSGs**
-<img src="images/Network NSG List.png" alt="NSG List" title="NSG List">
+<img src="Images/Network NSG List.png" alt="NSG List" title="NSG List">
 
 - **List of all the Disks**
-<img src="images/Disk List.png" alt="Disk List" title="Disk List">
+<img src="Images/Disk List.png" alt="Disk List" title="Disk List">
 
 #
 
