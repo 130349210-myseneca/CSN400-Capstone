@@ -16,23 +16,23 @@
 
 #
 
-### **Part A - Creating & Configuring VMs - Using Portal**
+### **Creating & Configuring VMs - Using Portal**
 
 #
 
-### **Part B - Basic Connectivity - VM Configuration**
+### **Basic Connectivity - VM Configuration**
 
 #
 
-### **Part C - Enable IP_Forwarding - Using Portal**
+### **Enable IP_Forwarding - Using Portal**
 
 #
 
-### **Part D - Creating & Configuring VM Images - Using Portal**
+### **Creating & Configuring VM Images - Using Portal**
 
 #
 
-### **Part E - Azure Cost Analysis Charts**
+### **Azure Cost Analysis Charts**
 
 #
 
