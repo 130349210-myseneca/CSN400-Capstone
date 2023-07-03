@@ -16,7 +16,7 @@
 
 #
 
-### **Creating & Configuring VMs - Using Portal**
+### **Creating & Configuring VMs Using Portal**
 
 - **What is the difference between Windows machine NSG and Linux machine NSG rules? Why? Do you need a rule for ssh or rdp? What happens if you delete specific ssh and rdp rules?**
 
@@ -44,15 +44,15 @@ If the user deletes the specific SSH or RDP rule from the NSG which is associate
 
 #
 
-### **Basic Connectivity - VM Configuration**
+### **Basic Connectivity VM Configuration**
 
 #
 
-### **Enable IP_Forwarding - Using Portal**
+### **Enable IP_Forwarding Using Portal**
 
 #
 
-### **Creating & Configuring VM Images - Using Portal**
+### **Creating & Configuring VM Images Using Portal**
 
 #
 
