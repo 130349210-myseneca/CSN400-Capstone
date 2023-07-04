@@ -1,4 +1,4 @@
-# Checkpoint 6 Submission
+# Checkpoint 7 Submission
 
 - **COURSE INFORMATION: NDD**
 - **STUDENT’S NAME: Kinod Lakdinu Melewa Thanthrige**
