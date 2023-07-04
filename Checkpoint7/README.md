@@ -1,4 +1,4 @@
-# Checkpoint 7 Submission
+# Checkpoint 6 Submission
 
 - **COURSE INFORMATION: NDD**
 - **STUDENT’S NAME: Kinod Lakdinu Melewa Thanthrige**
@@ -91,9 +91,19 @@ If the user deletes the specific SSH or RDP rule from the NSG which is associate
 
 ### **Creating & Configuring VM Images Using Portal**
 
+**1) Run a command in CLI that lists all your Custom Images. Change the output format to table format and embed the answer in your submission.**
 
+<img src="Images/Image List.png" alt="Image Lists" title="Image Lists">
 
+**2) Delete your VMs after your work is completed. Run a command in CLI that lists all your VMs. Hint: az vm list .... Change the output format to table format and embed the answer in your submission.**
 
+<img src="Images/Deleted VM List.png" alt="Deleted VM List" title="Deleted VM List">
+
+**3) Recreate all VMs from your images, and establish basic connectivity. How long the entire process took? How can you do this more efficiently?**
+
+- Around 10 minutes for the whole process 
+
+- We can create a create to utilize the images when running
 
 #
 
