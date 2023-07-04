@@ -100,3 +100,4 @@ az network nic show --resource-group "Student-RG-954296" --name "lr-115908_z1" -
 #
 
 ### **Create Customized Azure Dashboard**
+<img src="Images/Dashboard.png" alt="Dashboard" title="Dashboard">
