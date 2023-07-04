@@ -46,17 +46,17 @@ If the user deletes the specific SSH or RDP rule from the NSG which is associate
 
 ### **Enable IP_Forwarding Using Portal**
 
-- **Check the status of ip-forwarding using the command az network nic ip-config show with output format as json. Include only the command not output including the --quey you used in your submission.**
+**1) Check the status of ip-forwarding using the command az network nic ip-config show with output format as json. Include only the command not output including the --quey you used in your submission.**
 
-az network nic ip-config show --name "lr-115908_z1" --nic-name "lr-115908_z1" --resource-group "Student-RG-954296" --query '{forwarding: enableIPForwarding}' --output json
+- az network nic ip-config show --name "lr-115908_z1" --nic-name "lr-115908_z1" --resource-group "Student-RG-954296" --query '{forwarding: enableIPForwarding}' --output json
 
-- **When your output format is json, which property shows the status of the ip-forwarding attribute? Embed only the property that shows the status of ip-forwarding.**
+**2) When your output format is json, which property shows the status of the ip-forwarding attribute? Embed only the property that shows the status of ip-forwarding.**
 
-"enableIPForwarding": true
+- "enableIPForwarding": true
 
-- **Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az network nic show -g "rg-name" -n "nic-name" --query "enableIpForwarding"**
+**3) Check if the IP forwarding in NIC is enabled using Azure bash. 👉 Hint: az network nic show -g "rg-name" -n "nic-name" --query "enableIpForwarding"**
 
-az network nic show --resource-group "Student-RG-954296" --name "lr-115908_z1" --query "enableIpForwarding"
+- az network nic show --resource-group "Student-RG-954296" --name "lr-115908_z1" --query "enableIpForwarding"
 #
 
 ### **Basic-Connectivity-VM-Configuration**
@@ -75,14 +75,25 @@ az network nic show --resource-group "Student-RG-954296" --name "lr-115908_z1" -
 
 **4)Run a command in LR-xx that shows all iptables chains with their order number. What is the default setting? Include both the command and its output in your submission. How could you improve these settings to be less vulnerable to attacks?**
 
--
+- sudo iptables -t filter -L "CHAIN" --line-numbers -n -v
+
+- sudo iptables -L --line-numbers
+
+- By limiting access to specific IP addresses, by setting the default policy of the chains to DROP instead of ACCEPT and keep them updated/reviewed everyday.
+
+
 
 **5)Run a command that shows the hostname in LR-XX and LX-XX. Embed the output in your submission.**
 
--
+ <img src="Images/Hostnames.png" alt="Hostnames" title="Hostnames">
+
 #
 
 ### **Creating & Configuring VM Images Using Portal**
+
+
+
+
 
 #
 
