@@ -18,7 +18,7 @@
 
 **1. Get a list of your VM, NSG, NIC, and Disks using Azure CLI in table format. Do not include screenshots, just embed the output in table format in your submission.**
 
-* List of VMs
+### **List of VMs**
 
  Name     ResourceGroup      Location         Zones 
 
@@ -30,7 +30,8 @@ WC-115  STUDENT-RG-954296  canadacentral
 
 WS-115  STUDENT-RG-954296  canadacentral
 
-* List of NSGs
+
+### **List of NSGs**
 
 Location       Name        ProvisioningState    ResourceGroup      ResourceGuid
 
@@ -50,7 +51,7 @@ canadacentral  WS-115-nsg  Succeeded            Student-RG-954296  52f173ec-0e84
 
 canadacentral  WS-NSG-115  Succeeded            Student-RG-954296  f829f63e-a488-4aa7-907e-102fd3642759
 
-* List of NICs
+### **List of NICs**
 
 EnableAcceleratedNetworking    EnableIPForwarding    Location       MacAddress         Name    NicType    Primary    ProvisioningState    ResourceGroup      ResourceGuid                          VnetEncryptionSupported
 
@@ -62,7 +63,7 @@ False                          False                 canadacentral  00-0D-3A-F3-
 
 False                          False                 canadacentral  00-0D-3A-E9-21-F1  ws-115  Standard   True       Succeeded            Student-RG-954296  a4051c05-4406-499b-b79f-8e1c408507bd  False
 
-* List of Disks
+### **List of Disks**
 
 Name                                              ResourceGroup      Location       Zones    Sku              OsType    SizeGb    ProvisioningState
 
@@ -119,12 +120,27 @@ V2                  canadacentral  ws-115-ver-0.0.1  Succeeded            STUDEN
 
 **6. Delete your VMs using the proper script after your work is completed. Run a command in CLI that lists all your VMs.**
 
+**List of VMs:**
+
 **7. Get a list of your VM, NSG, NIC, and Disks using Azure CLI in table format. Which ones are empty? Do not include screenshots, just embed the output in table format in your submission.**
 
+### **List of VMs**
+### **List of NSGs**
+### **List of NICs**
+### **List of Disks**
 
 #
 ### **Basic Connectivity and Linux VMs Firewall Setting**
 
+**1. Run commands that show the status of the Apache server and MariDB server in your LS-xx. Embed the output as a bash snippet.**
 
+**2. Run a command in LR-xx that show iptables chains. What is the default setting? How could you improve these settings to be less vulnerable to attacks?
+Run a command that shows the hostname in LR-XX and LX-XX and embed the output in your submission.**
+
+**3. Submit your lr_iptables.txt and ls_iptables.txt files. Do not embed them in your README.md, just add it in your folder and give a hyperlink.**
+
+[Link to the lr_iptables.txt file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/vnet_list.json)
+
+[Link to the ls_iptables.txt file](https://github.com/130349210-myseneca/CSN400-Capstone/blob/main/Checkpoint6/Output%20Files/vnet_list.json)
 #
 ### **Azure Cost Analysis Charts**
