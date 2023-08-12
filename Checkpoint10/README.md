@@ -29,4 +29,11 @@
 
 #
 ### **Azure Cost Analysis Charts**
-
+| No. | Scope | Chart Type | VIEW Type |  Date Range | Group By | Granularity| Example |
+|-|-|-|-|-|-|-|-|
+|1|Student-RG-954296| Column (Stacked) | DailyCosts | Last 7 Days | Resource | Daily | <img src="Images/CM1.png" alt="Daily Cost Barchart" style="float: left; margin-right: 10px;" /> |
+|2|Student-RG-954296| Column (Stacked) | DailyCosts | Last 7 Days | Service | Daily | <img src="./Images/CM2.png" alt="Daily Cost Service-Barchart.jpg" style="float: left; margin-right: 10px;" /> |
+|3|Student-RG-954296| Area| AccumulatedCosts | Last 7 Days | Resource | Accumulated | <img src="./Images/CM3.png" alt="Accumulated Resource Barchart" style="float: left; margin-right: 10px;" /> |
+|4|Student-RG-954296| Pie Chart | NA | Last Month | Service Name | NA | <img src="./Images/CM4.png" alt="Service Name Piechart" style="float: left; margin-right: 10px;" /> |
+|5|Student-RG-954296| Pie Chart | NA | Last Month | Service Family | NA | <img src="./Images/CM5.png" alt="Service Family Piechart" style="float: left; margin-right: 10px;" /> |
+|6|Student-RG-954296| Pie Chart | NA | Last Month | Product | NA | <img src="./Images/CM6.png" alt="Product Piechart" style="float: left; margin-right: 10px;" /> |
